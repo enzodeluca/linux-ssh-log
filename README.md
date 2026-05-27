@@ -15,5 +15,5 @@ This project is a lightweight, native Python security utility designed to parse 
 - **Security Concepts:** Log Analysis, Brute-Force Detection, Automated Incident Response
 
 ## How It Works
-1. Run `python3 generate_logs.py` to simulate live corporate server log traffic.
-2. Run `python3 log_detector.py` to parse the telemetry, analyze the threat, and view the automated containment report.
+1. Run `python3 genLogs.py` to simulate live corporate server log traffic.
+2. Run `python3 logReview.py` to parse the telemetry, analyze the threat, and view the automated containment report.
