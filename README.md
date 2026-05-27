@@ -3,6 +3,11 @@
 ## Project Overview
 This project is a lightweight, native Python security utility designed to parse Linux system authentication logs (`auth.log`/`secure`). It automates the detection of brute-force attacks by isolating malicious IP addresses, tracking failed login attempts, and triggering automated mitigation alerts when configured thresholds are exceeded.
 
+## MITRE ATT&CK Mapping
+- **Tactic:** Credential Access (TA0006)
+- **Technique:** Brute Force: Password Guessing (T1110.001)
+- **Log Telemetry Analyzed:** Linux Syslog / SSH Daemon (`sshd`)
+
 ## Core Features
 - **Log Parsing & Normalization:** Ingests raw unstructured text data from Linux SSH daemon (`sshd`) logs.
 - **Threat Isolation:** Extracted target variables (Timestamp, Target User, Source IP) from failed connection events.
